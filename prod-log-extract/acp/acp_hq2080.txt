@@ -1,0 +1,5 @@
+option batch abort
+option confirm off
+open sftp://logginId@corp.company.com:your_password@server_name2080/ -hostkey="winscp_hostkey"
+synchronize local "%3%/hq2080/acp" /apps/jboss/jboss-eap-6.4/acpprod_n1/log -filemask="*>%1% & <%2%"
+exit

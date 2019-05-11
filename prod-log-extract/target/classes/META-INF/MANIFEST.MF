@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: prod-log-extract
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: S799967
+Implementation-Vendor-Id: com.emirates
+Build-Jdk: 1.8.0_121
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/prod-log-extract
+Created-By: Maven Integration for Eclipse
+

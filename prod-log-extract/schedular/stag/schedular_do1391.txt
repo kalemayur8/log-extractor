@@ -1,0 +1,5 @@
+option batch abort
+option confirm off
+open sftp://logginId@corp.company.com:your_password@server_name1391/ -hostkey="winscp_hostkey"
+synchronize local "%3%/do1391/schedular" /apps/jboss/jboss-eap-6.4/acpstg2/log -filemask="*>%1% & <%2%"
+exit

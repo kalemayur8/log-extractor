@@ -1,0 +1,1 @@
+winscp.com /script=%1 /parameter %2 %3 %4
