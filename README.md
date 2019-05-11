@@ -36,10 +36,10 @@ Input
 Commands to run this application 
 ===============================
 
-java -jar prod-log-extract-0.0.5.jar "schedular" "2018-07-11 10:01" "2018-07-11 11:59" "local" "stag"
-java -jar prod-log-extract-0.0.5.jar "customerlist" "2018-07-11 10:01" "2018-07-11 11:59" "local" "stag"
-java -jar prod-log-extract-0.0.2.jar "audit" "2018-07-11 11:01" "2018-07-11 11:59" "local" "prod"
-java -jar prod-log-extract-0.0.2.jar "acp-ui" "2018-07-11 11:01" "2018-07-11 11:59" "local" "prod"
-java -jar prod-log-extract-0.0.2.jar "acp-event" "2018-07-11 11:01" "2018-07-11 11:59" "local" "prod"
-java -jar prod-log-extract-0.0.2.jar "acp,hq2080" "2018-07-11 11:01" "2018-07-11 11:59" "local" "prod"
+cmd :\> java -jar prod-log-extract-0.0.5.jar "schedular" "2018-07-11 10:01" "2018-07-11 11:59" "local" "stag"
+cmd :\> java -jar prod-log-extract-0.0.5.jar "customerlist" "2018-07-11 10:01" "2018-07-11 11:59" "local" "stag"
+cmd :\> java -jar prod-log-extract-0.0.2.jar "audit" "2018-07-11 11:01" "2018-07-11 11:59" "local" "prod"
+cmd :\> java -jar prod-log-extract-0.0.2.jar "acp-ui" "2018-07-11 11:01" "2018-07-11 11:59" "local" "prod"
+cmd :\> java -jar prod-log-extract-0.0.2.jar "acp-event" "2018-07-11 11:01" "2018-07-11 11:59" "local" "prod"
+cmd :\> java -jar prod-log-extract-0.0.2.jar "acp,hq2080" "2018-07-11 11:01" "2018-07-11 11:59" "local" "prod"
 
